@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Atividade 2"/>
+        <attribute name="authors" value="I1D35"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-03-17 04:32:11 "/>
+        <attribute name="created" value="STFEMzU7RUNGUDUwN0QxMjYzNjE4OzIwMjYtMDMtMTc7IjA0OjExOjA3ICI7MjM1Ng=="/>
+        <attribute name="edited" value="STFEMzU7RUNGUDUwN0QxMjYzNjE4OzIwMjYtMDMtMTc7IjA0OjMyOjExICI7MjsyNDYz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="numero" type="Real" array="False" size=""/>
+            <output expression="&quot;Coloque o numero&quot;" newline="True"/>
+            <input variable="numero"/>
+            <if expression="numero &gt; 0">
+                <then>
+                    <output expression="&quot;numero positivo&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="numero = 0">
+                        <then>
+                            <output expression="&quot;O n&#250;mero &#233; nulo&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <if expression="numero &lt; 0">
+                                <then>
+                                    <output expression="&quot;O n&#250;mero &#233; negativo&quot;" newline="True"/>
+                                </then>
+                                <else/>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

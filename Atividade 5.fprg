@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Atividade 5"/>
+        <attribute name="authors" value="I1D35"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-03-17 04:10:58 "/>
+        <attribute name="created" value="STFEMzU7RUNGUDUwN0QxMjYzNjE4OzIwMjYtMDMtMTc7IjAzOjE1OjEyICI7MjM1NQ=="/>
+        <attribute name="edited" value="STFEMzU7RUNGUDUwN0QxMjYzNjE4OzIwMjYtMDMtMTc7IjA0OjEwOjU4ICI7MTsyNDY5"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="somatoria" type="Integer" array="False" size=""/>
+            <output expression="&quot;digite sua primeira nota&quot;" newline="True"/>
+            <declare name="nota" type="Real" array="False" size=""/>
+            <input variable="nota"/>
+            <output expression="&quot;escreva a sua segunda nota&quot;" newline="True"/>
+            <declare name="notaDois" type="Real" array="False" size=""/>
+            <input variable="notaDois"/>
+            <declare name="media" type="Real" array="False" size=""/>
+            <assign variable="somatoria" expression="nota + notaDois"/>
+            <assign variable="media" expression="somatoria/2"/>
+            <output expression="&quot;A m&#233;dia &#233; de: &quot; &amp; media" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
